@@ -443,7 +443,7 @@ assert(x++ == 0); /* 这是错误的! */
 
 1. 修正关于 `LEPT_PARSE_ROOT_NOT_SINGULAR` 的单元测试，若 json 在一个值之后，空白之后还有其它字符，则要返回 `LEPT_PARSE_ROOT_NOT_SINGULAR`。
 2. 参考 `test_parse_null()`，加入 `test_parse_true()`、`test_parse_false()` 单元测试。
-3. 参考 `lept_parse_null()` 的实现和调用方，解析 true 和 false 值。
+3. 参考 `lept_parse_null()` 的实现和调用方法，解析 true 和 false 值。
 
 ## 10. 常见问答
 
